@@ -1,8 +1,7 @@
-﻿using System.Net.Http;
-using SimpleAPI.Dto;
+﻿using SimpleAPI.Dto;
 using SimpleAPI.Model;
 
-namespace SimpleAPI.services
+namespace SimpleAPI.Services
 {
     public class ServerInfoService
     {
