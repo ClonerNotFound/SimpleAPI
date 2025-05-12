@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SimpleAPI.services;
+using SimpleAPI.Services;
 
 namespace SimpleAPI.Controllers
 {

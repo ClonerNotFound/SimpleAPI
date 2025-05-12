@@ -1,7 +1,12 @@
-using SimpleAPI.services;
+using SimpleAPI.Entity;
 using SimpleAPI.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<APIDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<PlayerService>();
 
 CorsPolicy.ConfigureCorsPolicy(builder.Services);
 
