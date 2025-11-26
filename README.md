@@ -22,4 +22,4 @@ options.AddPolicy("AllowSpecificOrigin", builder =>
 
 
 ## Вклад
-Если вы хотите внести свой вклад в этот проект, пожалуйста, отправьте pull request
+Если вы хотите внести свой вклад в этот проект, пожалуйста, отправьте pull request - [Здесь](https://github.com/ClonerNotFound/SimpleAPI/pulls)
