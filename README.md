@@ -18,3 +18,8 @@ options.AddPolicy("AllowSpecificOrigin", builder =>
                            .AllowAnyHeader();
                 });
 ```
+
+
+
+## Вклад
+Если вы хотите внести свой вклад в этот проект, пожалуйста, отправьте pull request
